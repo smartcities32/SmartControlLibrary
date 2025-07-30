@@ -1,0 +1,116 @@
+# Keywords for SmartControlLibrary
+
+# Classes
+MainControlClass  KEYWORD1
+RTCManager        KEYWORD1
+UserManager       KEYWORD1
+ScheduleManagerClass KEYWORD1
+PrayerTimesManagementClass KEYWORD1
+EEPROMHelper      KEYWORD1
+
+# Functions (Common)
+beginAPAndWebServer KEYWORD2
+handleClient      KEYWORD2
+resetConfigurations KEYWORD2
+setRelayPhysicalState KEYWORD2
+readStringFromEEPROM KEYWORD2
+saveStringToEEPROM KEYWORD2
+getRelayStateFromEEPROM KEYWORD2
+saveRelayStateToEEPROM KEYWORD2
+
+# UserManager Specific Functions
+setupUserEndpoints KEYWORD2
+generatePassword KEYWORD2
+getRandomUpperCase KEYWORD2
+getRandomLowerCase KEYWORD2
+getRandomNumber KEYWORD2
+getRandomSymbol KEYWORD2
+getRandomCharacter KEYWORD2
+shuffleString KEYWORD2
+handleAddUserTag KEYWORD2
+handleDeleteUserTag KEYWORD2
+handleDeleteAllUserTags KEYWORD2
+handleCheckUserTag KEYWORD2
+handleGetUserTagCount KEYWORD2
+handleUseUserTag KEYWORD2
+handleGetTags KEYWORD2
+handleAddCard KEYWORD2
+handleRemoveCard KEYWORD2
+handleGenerateSSIDAndPASS KEYWORD2
+handleSetUsersMaxNumber KEYWORD2
+handleGetUsersMaxNumber KEYWORD2
+saveUserTagCountToEEPROM KEYWORD2
+getUserTagCountFromEEPROM KEYWORD2
+findUserTagIndex KEYWORD2
+storeTag KEYWORD2
+shiftTagsAndDelete KEYWORD2
+UpdateStatistics KEYWORD2
+ClearStatisticsAtIndex KEYWORD2
+IncrementStatistics KEYWORD2
+GetStatistics KEYWORD2
+handleGetStatistics KEYWORD2
+readStatisticsEnabledState KEYWORD2
+saveStatisticsEnabledState KEYWORD2
+handleSetStatisticsEnabled KEYWORD2
+
+# ScheduleManager Specific Functions
+setupScheduleEndpoints KEYWORD2
+loopTasks KEYWORD2
+saveScheduleToEEPROM KEYWORD2
+readScheduleFromEEPROM KEYWORD2
+readLastScheduleId KEYWORD2
+writeLastScheduleId KEYWORD2
+handleAddSchedule KEYWORD2
+handleGetSchedules KEYWORD2
+handleUpdateSchedule KEYWORD2
+handleDeleteSchedule KEYWORD2
+checkSchedules KEYWORD2
+
+# PrayerTimesManager Specific Functions
+setupPrayerEndpoints KEYWORD2
+loopTasks KEYWORD2
+savePrayerConfig KEYWORD2
+readPrayerConfig KEYWORD2
+saveAutoRelayConfig KEYWORD2
+readAutoRelayConfig KEYWORD2
+handleSetPrayerConfig KEYWORD2
+handleGetPrayerConfig KEYWORD2
+handleGetPrayerTimes KEYWORD2
+handleSetAutoRelayConfig KEYWORD2
+handleGetAutoRelayConfig KEYWORD2
+handleAutoRelayByPrayerTimes KEYWORD2
+
+# RTCManager Specific Functions
+beginRTC KEYWORD2
+now KEYWORD2
+adjustRTC KEYWORD2
+
+# Constants (Optional)
+RELAY_PIN KEYWORD2
+EEPROM_SDA_PIN KEYWORD2
+EEPROM_SCL_PIN KEYWORD2
+EXTERNAL_EEPROM_ADDR KEYWORD2
+USE_EXTERNAL_EEPROM KEYWORD2
+EEPROM_SIZE KEYWORD2
+EX_EEPROM_SIZE KEYWORD2
+SSID_MAX_LEN KEYWORD2
+PASSWORD_MAX_LEN KEYWORD2
+USER_TAG_LEN KEYWORD2
+MAX_USER_TAGS KEYWORD2
+RELAY_STATE_ADDR KEYWORD2
+OP_METHOD_ADDR KEYWORD2
+SSID_ADDR KEYWORD2
+PASSWORD_ADDR KEYWORD2
+ADD_CARD_ADDR KEYWORD2
+REMOVE_CARD_ADDR KEYWORD2
+MAX_NUM_OF_USERS_ADD KEYWORD2
+LAST_SCHEDULE_ID_ADDR KEYWORD2
+PRAYER_CONFIG_ADDR KEYWORD2
+AUTO_RELAY_CONFIG_ADDR KEYWORD2
+STATISTICS_ENABLED_ADDR KEYWORD2
+USER_TAG_COUNT_ADDR KEYWORD2
+USER_TAGS_START_ADDR KEYWORD2
+STATISTICS_START_ADDR KEYWORD2
+MAX_SCHEDULES KEYWORD2
+SCHEDULE_SIZE KEYWORD2
+SCHEDULE_START_ADDR KEYWORD2
